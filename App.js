@@ -7,6 +7,8 @@ export default function App() {
     <View style={styles.container}>
       <AppBar></AppBar>
       <Text>Michael</Text>
+      <Text style={styles.title}>Hello</Text>
+      <InputTodo></InputTodo>
       <StatusBar style="auto" />
     </View>
   );
